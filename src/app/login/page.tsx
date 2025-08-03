@@ -153,24 +153,10 @@ export default function LoginPage() {
               </Button>
             </form>
 
-            <div className="text-center space-y-2">
+            <div className="text-center">
               <p className="text-xs text-gray-500">
                 Need help? Contact your system administrator
               </p>
-              
-              {/* Demo Login Button */}
-              <Button
-                type="button"
-                variant="outline"
-                className="w-full text-sm"
-                onClick={() => {
-                  setUsername('rara');
-                  setPassword('password123');
-                }}
-                disabled={isLoading}
-              >
-                Use Demo Credentials (rara / password123)
-              </Button>
             </div>
           </CardContent>
         </Card>
